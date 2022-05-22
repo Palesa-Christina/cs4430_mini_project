@@ -67,10 +67,10 @@
 Now for rest of the tables the data are readonly to the admins of other sites.
 - As an user, an user can only view information about the hospital, himself, doctors and rooms available.
 
-#### My Contribution and Perspective on the project
+#### Contribution and Perspective on the project
 This project solely focuses on the implementation of distributed database and plsql. Therefore the structure of this project is not similar to the way Hospital Management in practice should be.
 
-Along with the some main functions, I introduced the helper functions to enhance reusability. The helper functions are neatly done keeping in mind the data being distributed.
+Along with the some main functions, we introduced the helper functions to enhance reusability. The helper functions are neatly done keeping in mind the data being distributed.
 - CheckPatient
 - CheckDoctor
 - CheckHospital
@@ -83,15 +83,15 @@ For Site 1:
 
 | PatientId (PK) | Name  | Gender | Address   | ContactNo | age |
 | -------------- | ----- | ------ | --------- | --------- | --- |
-| 1              | dipta | Male   | something | 123       | 23  |
-| 3              | nabil | Male   | something | 123       | 23  |
-| 4              | arnob | Male   | something | 123       | 23  |
+| 1              | sam   | Male   | something | 123       | 23  |
+| 3              | chris | Male   | something | 123       | 23  |
+| 4              | sammy | Male   | something | 123       | 23  |
 
 For Site 2:
 | PatientId (PK) | Name   | Gender | Address   | ContactNo | age |
 | -------------- | ------ | ------ | --------- | --------- | --- |
-| 2              | Broti  | Female | something | 123       | 23  |
-| 5              | Tonmoy | Male   | something | 123       | 23  |
+| 2              |Palesa  | Female | something | 123       | 23  |
+| 5              | Sutha | Male   | something | 123       | 23  |
 
 The primary key will always maintain the **sequence**.
 
