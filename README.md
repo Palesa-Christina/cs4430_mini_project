@@ -113,3 +113,4 @@ The troubleshooting:
 - For the `rooms` table I could've just used roomNo and hosId as the composite primary key. But it's not possible to reference both of them from outside the table as I can only reference one at a time, and none of these two keys uniquely identify the whole table.
 
 I also tweaked things here and there to make it look more practical. For example I added the constraint `Male`, `Female` for the patient gender. I also mostly tried to design the structure of the database. Although the structure of the database is not really practical, yet I feel like it has been able to demonstrate the core concept of distributed database and plsql workflow.
+# cs4430_mini_project_the-upgrade
